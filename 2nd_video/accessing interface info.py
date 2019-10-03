@@ -23,4 +23,8 @@ with manager.connect(host= ios_xe1['address'],
 
     intf_config = intf_details['interfaces']['interface']
 
-    pprint(intf_config)
+    #pprint(intf_config)
+
+    pprint('')
+    pprint('Interface details')
+    print(' Name: {}'.format(intf_config['name']['#text']))
